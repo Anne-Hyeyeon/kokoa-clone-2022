@@ -17,3 +17,23 @@
   color: #2e363e;
   color: inherit;
 }
+
+.nav__btn {
+  position: relative;
+}
+
+.nav__notification {
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+}
+
+.nav__more {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  position: absolute;
+  right: -5px;
+  box-sizing: border-box;
+}

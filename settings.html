@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chats - Princess Talk</title>
+    <title>Settings - Princess Talk</title>
+    <script src="https://kit.fontawesome.com/e36883e009.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="status-bar">
@@ -23,36 +24,46 @@
         </div>
     </div>
 
-    <header class="screen-header">
-        <h1 class="screen-header__title">Chats</h1>
-        <div class="screen-header__icons">
-            <span><i class="fas fa-search fa-lg"></i></span>
-            <span><i class="far fa-comment-dots fa-lg"></i></span>
-            <span><i class="fas fa-music fa-lg"></i></span>
-            <span><i class="fas fa-cog fa-lg"></i></span>
-        </div>
-    </header>
-
+<header class="alt-header">
+    <div class="alt-header__column">
+        <a href="more.html"><i class="fas fa-solid fa-angle-left fa-2x"></i></a>
+    </div>
+    <div class="alt-header__column">
+        <h1 class="alt-header__title">Settings</h1>
+    </div>
+    <div class="alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+    </div>
+</header>
 
 <main class="main-screen">
-    <a href="chat-room.html">
-    <div class="user-component">
-        <div class="user-component__column">
-            <img src="img\hy.png" class="user-component__avatar user-component__avatar" />
-            <div class="user-component__text">
-                <h4 class="user-component__title">Anne</h4>
-               <h6 class="user-component__subtitle">Princess is calling you!</h6>
+    <ul class="settings-list">
+        <li class="settings__setting">
+            <div class="settings__setting-column">
+            <i class="fas fa-solid fa-bullhorn"></i>
+            <span>Notices</span>
+        </div>
+        <div class="settings__setting-column"></div>
+
+        </li>
+        <li class="settings__setting">
+            <div class="settings__setting-column">
+            <i class="fas fa-solid fa-flask"></i>
+            <span>Princess Lab</span>
             </div>
-        </div>
-        <div class="user-component__column--2">
-            <div class="user-component__time">17:34</div>
-            <div class="badge">1</div>
-        </div>
-    </div>
-</a>
+            <div class="settings__setting-column"></div>
 
+        </li>
+        <li class="settings__setting">
+            <div class="settings__setting-column">
+            <i class="fas fa-info-circle"></i>
+            <span>Version</span> 
+            </div>
+            <div class="settings__setting-column">Latest Version</div>
+
+        </li>
+    </ul>
 </main>
-
 
 
 <nav class="nav">
@@ -64,7 +75,7 @@
         </li>
         <li class="nav__btn">
             <span class="nav__notification badge">1</span>
-            <a class="nav__link" href="chats.html"><i class="fas fa-comment fa-2x"></i></a>
+            <a class="nav__link" href="chats.html"><i class="far fa-comment fa-2x"></i></a>
         </li>
         <li class="nav__btn">
             <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
@@ -76,10 +87,9 @@
     </ul>
 </nav>
   
-    
 <div id="no-mobile">
     <span>화면을 모바일 사이즈로 만들어주세요.</span>
 </div>
-    <script src="https://kit.fontawesome.com/e36883e009.js" crossorigin="anonymous"></script>
+
 </body>
 </html>

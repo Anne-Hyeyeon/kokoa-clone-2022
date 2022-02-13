@@ -26,6 +26,11 @@
 
 }
 
+.fa-exclamation-circle {
+  color: rgb(199, 0, 0);
+}
+
+
 .user-component__text h4 {
     margin-bottom: 5px;
 }
